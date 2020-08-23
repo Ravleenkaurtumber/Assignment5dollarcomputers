@@ -16,5 +16,13 @@ namespace Assignment5dollarcomputers
         {
             InitializeComponent();
         }
+        
+
+        private void SelectForm_Load_1(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'dollarComputersDataSet.products' table. You can move, or remove it, as needed.
+            this.productsTableAdapter.Fill(this.dollarComputersDataSet.products);
+
+        }
     }
 }
