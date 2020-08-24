@@ -30,7 +30,7 @@ namespace Assignment5dollarcomputers
 
         private void SavedOrderButton_Click(object sender, EventArgs e)
         {
-            Program.productinfoform.Show();
+            Program.products.Show();
             this.Hide();
         }
     }

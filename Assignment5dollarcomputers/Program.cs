@@ -12,7 +12,7 @@ namespace Assignment5dollarcomputers
         public static SplashScreen splashscreen;
         public static StartForm startform;
         public static SelectForm selectform;
-        public static ProductInfoForm productinfoform;
+        public static ProductInfoForm products;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -25,7 +25,7 @@ namespace Assignment5dollarcomputers
             splashscreen = new SplashScreen();
             startform = new StartForm();
             selectform = new SelectForm();
-            productinfoform = new ProductInfoForm();
+            products = new ProductInfoForm();
 
             Application.Run(new SplashScreen());
         }

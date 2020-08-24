@@ -16,5 +16,20 @@ namespace Assignment5dollarcomputers
         {
             InitializeComponent();
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // ProductInfoForm
+            // 
+            this.ClientSize = new System.Drawing.Size(584, 281);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "ProductInfoForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.ResumeLayout(false);
+
+        }
     }
 }
